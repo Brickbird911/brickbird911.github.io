@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+  <body>
+    <style>
+.center {
+  margin: auto;
+  width: 60%;
+  border: 3px solid #73AD21;
+  padding: 10px;
+}
+</style>
+<div class="center">
+  <a href="<img src="https://upload.wikimedia.org/wikipedia/commons/b/b1/Loading_icon.gif?20151024034921" alt="File:Loading icon.gif - Wikimedia Commons"/>">
+</div>
+  </body>
+</html>
