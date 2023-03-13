@@ -1,37 +1,100 @@
-
-	<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
-    <head>
-		<title>Home</title>
-		<link rel="icon" type="image/x-icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/800px-ISO_C%2B%2B_Logo.svg.png" />
-        <link rel="stylesheet" href="style.css">
-    </head>
-    <body>
-        <div class="container">
-            <!-- Navigation Bar -->
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="Windows.html">BSOD</a></li>
-                    <li><a href="wallpaper.html">wallpapers</a></li>
-					<li><a href="23g2g3det6331.html">4k wallpaper</a></li>
-					<li><a href="503notfound.html">503 error</a></li>
-					<li><a href="Linux.html">Linux crash</a></li>
-					<li><a href="minecraft.html">Minecraft B verision</a></li>
-					<li><a href="503notfound.html">503 error</a></li>
-					<li><a href="Robux.html">Free robux</a></li>
-                </ul>
-            </nav>
-            <!-- Main Content -->
-            <div class="main-content">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
 
-            </div>
-        </div>
-        <script src="main.js"></script>
-	</br>
-	<iframe id="online-alarm-kur-iframe" src="https://embed-clock.onlinealarmkur.com/en/#Europe%2FStockholm" width="480" height="80" style="display: block; margin: 0px auto; border: 0px;"></iframe>
-	<script>
-		
-	</script>
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+<title>Home</title>
+<link rel="icon" type="image/x-icon" href="https://upload.wikimedia.org/wikipedia/commons/thumb/1/18/ISO_C%2B%2B_Logo.svg/800px-ISO_C%2B%2B_Logo.svg.png">
+
+</head>
+<body>
+
+<div class="navbar">
+	<li style="float:right">
+		<a href="logs.html">Logs</a>
+	</li>
+
+  <a href="index.html">Home</a>
+  <a href="Robux.html">Roblox</a>
+  <a href="minecraft.html">Minecraft Budget</a>
+  <a href="wallpaper.html">Wallpapers</a>
+  <div class="dropdown">
+    <button class="dropbtn">Dropdown 
+      <i class="fa fa-caret-down"></i>
+    </button>
+    <div class="dropdown-content">
+      <a href="Windows.html">Windows</a>
+      <a href="Linux.html">Linux crash</a>
+      <a href="503notfound.html">503 error</a>
+	  <a href="Chromeos.html">Chromeos crash</a>
+    </div>
+  </div> 
+</div>
+
 </body>
-  </html>
+</html>
