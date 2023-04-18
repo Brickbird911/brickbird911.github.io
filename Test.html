@@ -3,10 +3,8 @@
 <script>
 	const w = window.open("http://google.com/teapot", "_blank", "width=200,height=100");
 
-	w.onclose = function() {
-		window.open(function(){ 
-			 window.open('http://google.com/teapot','_blank','width=200,height=100')
-		}, 2000);
+	w.onclose {
+		window.open('http://google.com/teapot','_blank','width=200,height=100')
 	} 
 	
 	</script>
