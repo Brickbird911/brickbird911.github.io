@@ -1,6 +1,19 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<script>
+		function keyPress (e) {
+		if(e.key === "Escape") {
+			var link = document.querySelector("link[rel~='icon']");
+	if (!link) {
+		link = document.createElement('link');
+		link.rel = 'icon';
+		document.head.appendChild(link);
+	}
+	link.href = 'https://stackoverflow.com/favicon.ico';
+		}
+	}
+	</script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
@@ -95,17 +108,4 @@ body {
   </div> 
 </div>
 <embed src="https://www.vecka.nu"width="900" height="750">
-	<script>
-		function keyPress (e) {
-		if(e.key === "Escape") {
-			var link = document.querySelector("link[rel~='icon']");
-	if (!link) {
-		link = document.createElement('link');
-		link.rel = 'icon';
-		document.head.appendChild(link);
-	}
-	link.href = 'https://stackoverflow.com/favicon.ico';
-		}
-	}
-	</script>
 </html>
