@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html>
-<script>
-	const w = window.open("http://google.com/teapot", "_blank", "width=200,height=100");
-
-	w.onclose {
-		window.open('http://google.com/teapot','_blank','width=200,height=100')
-	} 
-	
-	</script>
+<head>
+	<title>Cool Website</title>
+	<link rel="stylesheet" type="text/css" href="test.css">
+</head>
+<body>
+	<header>
+		<h1>Cool Website</h1>
+	</header>
+	<main>
+		<p>Welcome to my cool website!</p>
+		<button id="animate">Animate</button>
+	</main>
+	<script src="test.js"></script>
+</body>
 </html>
