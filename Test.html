@@ -1,17 +1,23 @@
 <!DOCTYPE html>
 <html>
-<head>
-	<title>Cool Website</title>
-	<link rel="stylesheet" type="text/css" href="test.css">
-</head>
-<body>
-	<header>
-		<h1>Cool Website</h1>
-	</header>
-	<main>
-		<p>Welcome to my cool website!</p>
-		<button id="animate">Animate</button>
-	</main>
-	<script src="test.js/test.js"></script>
-</body>
+
+	<body>
+		<input type="text" onkeydown="myFunction(event)">
+
+<script>
+function myFunction(event) {
+  if (event.keyCode === 13) {
+
+	var topPosition = Math.floor(Math.random() * window.screen.height);
+var leftPosition = Math.floor(Math.random() * window.screen.width);
+
+window.open('https://brickbird911.github.io/', '', 'top=' + topPosition + ', left=' + leftPosition + ', width=100, height=100');
+var topPosition = Math.floor(Math.random() * window.screen.height);
+var leftPosition = Math.floor(Math.random() * window.screen.width);
+
+window.open('https://brickbird911.github.io/', '', 'top=' + topPosition + ', left=' + leftPosition + ', width=100, height=100');
+  }
+}
+</script>
+	</body>
 </html>
