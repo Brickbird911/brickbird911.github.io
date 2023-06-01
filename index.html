@@ -82,6 +82,53 @@ body {
   display: block;
 }
 </style>
+<style>
+	.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: rgb(25,118,155);
+}
+
+.test-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.test-content a {
+  float: none; 
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.test-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
 <title>Home</title>
 <link rel="icon" type="image/x-icon" href="https://mir-s3-cdn-cf.behance.net/user/276/1eb879856067393.6017e46a6f987.png">		
 </head>
@@ -106,7 +153,7 @@ body {
       <a href="503notfound">503 error</a>
 	  <a href="Chromeos">Chromeos crash</a>
     </div>
-	<div class="dropdown-content">
+	<div class="test-content">
 		<a href="logs">Update logs</a>
 		<a href="Test">Test page</a>
 		<a href="Beta">2.0.1 Beta</a>
