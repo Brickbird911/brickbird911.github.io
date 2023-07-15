@@ -1,19 +1,6 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<script>
-		function keyPress (e) {
-		if(e.key === "Escape") {
-			var link = document.querySelector("link[rel~='icon']");
-	if (!link) {
-		link = document.createElement('link');
-		link.rel = 'icon';
-		document.head.appendChild(link);
-	}
-	link.href = 'https://stackoverflow.com/favicon.ico';
-		}
-	}
-	</script>
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
@@ -24,6 +11,7 @@ body {
 .navbar {
   overflow: hidden;
   background-color: #333;
+  border-radius: 25px;
 }
 
 .navbar a {
@@ -52,7 +40,7 @@ body {
 }
 
 .navbar a:hover, .dropdown:hover .dropbtn {
-  background-color: rgb(25,118,155);
+  background-color: rgb(25, 118, 155);
 }
 
 .dropdown-content {
@@ -60,13 +48,13 @@ body {
   position: absolute;
   background-color: #f9f9f9;
   min-width: 160px;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(52, 11, 11, 0.2);
   z-index: 1;
 }
 
 .dropdown-content a {
-  float: none; 
-  color: black;
+  float: none;
+  color: rgb(53, 10, 10);
   padding: 12px 16px;
   text-decoration: none;
   display: block;
@@ -81,8 +69,15 @@ body {
   display: block;
 }
 </style>
-<title>Home</title>
-<link rel="icon" type="image/x-icon" href="https://lh3.googleusercontent.com/qeXkyfkBAILTErOPAG_S1C97sS0i-lIooMPuVE79OW9L4gSwpaf93SgKdazAVkxZWa-vx695C-hxoMFjnKQ8ArnSMqi6ZcGdYU3rJwib">			
+<style>
+	body {
+		background-image: url("https://drive.google.com/file/d/1rlx_VwluUBGFHvKuWlI8lB6ayOfr24Ah/view");
+		background-color: #ffffff;
+			}
+</style>
+<title>Home | Brickbird911</title>
+<link rel="icon" type="image/x-icon" href="https://mir-s3-cdn-cf.behance.net/user/276/1eb879856067393.6017e46a6f987.png">
+
 </head>
 <body>
 
@@ -91,21 +86,20 @@ body {
 		<a href="logs">Logs</a>
 	</li>
 
-  <a href="">Home</a>
+  <a class="active" href="index">Home</a>
   <a href="Robux">Roblox</a>
   <a href="minecraft">Minecraft Budget</a>
   <a href="wallpaper">Wallpapers</a>
   <div class="dropdown">
-    <button class="dropbtn">Dropdown 
+    <button class="dropbtn">Dropdown
       <i class="fa fa-caret-down"></i>
     </button>
     <div class="dropdown-content">
-      <a href="Windows">Windows</a>
-      <a href="Linux">Linux crash</a>
-      <a href="503notfound">503 error</a>
-	  <a href="Chromeos">Chromeos crash</a>
+      <a href=""></a>
+      <a href=""></a>
+      <a href=""></a>
+	  <a href=""></a>
     </div>
   </div> 
 </div>
-<embed src="https://www.vecka.nu"width="900" height="750">
 </html>
