@@ -1,6 +1,6 @@
 .nav {
 	flex-direction: row;
 	background: #000;
-	height: 32px;
-	border-radius: 16px;
+	height: 64px;
+	border-radius: 32px;
 }
