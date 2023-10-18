@@ -4,6 +4,12 @@
 	height: 64px;
 	border-radius: 32px;
 }
-nav a{
+nav a:link{
 	color:orange
+}
+nav a:visited{
+	color: orange;
+}
+nav a:hover{
+	color: #f58216;
 }
