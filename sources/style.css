@@ -3,13 +3,5 @@
 	background: #000;
 	height: 64px;
 	border-radius: 32px;
-}
-nav a:link{
-	color:orange
-}
-nav a:visited{
-	color: orange;
-}
-nav a:hover{
-	color: #f58216;
+	text-align: center;
 }
